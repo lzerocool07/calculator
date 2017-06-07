@@ -1,0 +1,84 @@
+body{
+    background: url(../img/vintage-leaves.png);
+}
+.calculator{
+    background:#000; 
+    border-radius:10px; 
+    width:250px;
+    height: 399px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 15px rgb(0,0,0);
+    padding:1px 10px 30px 10px; 
+}
+.calculator h1{
+    color:aqua;
+    text-align: center;
+    
+}
+.resBlock{
+    width: 199px;
+    margin: 0 auto;
+}
+input[name="res"]{
+    padding:5px 5px; 
+    background: grey;
+    color: aqua;
+    border:10px groove #ccc; 
+}
+
+.btnsOnOff{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    background: #484c4f;
+}
+input[name="on"] , input[name="of"]{
+    border-radius: 50%;
+    padding:10px 10px; 
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: background .5s;
+}
+input[name="on"]{
+    background: green;
+}
+input[name="of"]{
+    background: red;
+}
+
+input[name="on"]:hover{
+   background: #0a5d0a;
+}
+input[name="of"]:hover{
+   background: #710404;
+}
+
+input[name="numbers"] ,
+input[name="division"], 
+input[name="multiplication"], 
+input[name="addition"], 
+input[name="res1"]{
+    background: #484c4f;
+    width: 40px;
+    height: 40px;
+    border-radius:3px;
+    color:aqua;
+    margin-bottom:20px;
+    margin-left:10px; 
+    cursor: pointer;
+    box-shadow:1px 2px 2px rgba(255,255,255,.5);
+    transition: box-shadow  3s , background .5s
+}
+
+input[name="numbers"]:hover,
+input[name="multiplication"]:hover,
+input[name="division"]:hover,
+input[name="addition"]:hover,
+input[name="res1"]:hover
+{
+    background: #484C6B;
+    border: none;
+    box-shadow:1px 2px 2px #484C6B;
+}
